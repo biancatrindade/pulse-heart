@@ -1,0 +1,43 @@
+body {
+    background-color: #e2afd5;    
+}
+
+h1{
+    text-align: center;
+    color: #810568;
+}
+
+h3 {
+    text-align: center;
+    color: #80008c;
+}
+
+.moca {
+    display: block;
+    margin: -180px auto 10px auto;
+    width: 50%;
+}
+
+.heart {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 430px;
+    width: 80px;
+    align-items: center;
+    animation: pulse 1s linear infinite;
+}
+
+@-webkit-keyframes "pulse" {
+    0% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    50% {
+       -webkit-transform: scale(0.8);
+       transform: scale(0.8);
+    }
+    100% {
+        -webkit-transform: scale(1);
+       transform: scale(1);
+    }
+    }
